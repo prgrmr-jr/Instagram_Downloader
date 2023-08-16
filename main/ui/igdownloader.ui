@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>700</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1100</width>
+    <height>700</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="body" native="true">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-20</y>
+     <width>1121</width>
+     <height>771</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#body{
+background:#FFFFFF;
+}</string>
+   </property>
+   <widget class="QWidget" name="head" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>10</y>
+      <width>1111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#head{
+background:#FFFFFF;
+}</string>
+    </property>
+    <widget class="QPushButton" name="btnLogo">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnLogo{
+backgrouind:transparent;
+border:none;
+focus:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_logo.png</normaloff>../images/icon_logo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>93</width>
+       <height>25</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnYt">
+     <property name="geometry">
+      <rect>
+       <x>1020</x>
+       <y>10</y>
+       <width>41</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnYt{
+backgrouind:transparent;
+border:none;
+focus:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_youtube.png</normaloff>../images/icon_youtube.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnGithub">
+     <property name="geometry">
+      <rect>
+       <x>1060</x>
+       <y>10</y>
+       <width>41</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnGithub{
+backgrouind:transparent;
+border:none;
+focus:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_github.png</normaloff>../images/icon_github.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnFb">
+     <property name="geometry">
+      <rect>
+       <x>980</x>
+       <y>10</y>
+       <width>41</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnFb{
+backgrouind:transparent;
+border:none;
+focus:none;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_facebook.png</normaloff>../images/icon_facebook.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>30</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="containerbtn" native="true">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>110</y>
+      <width>300</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#containerbtn{
+border-radius: 5px;
+background: rgba(255, 255, 255, 0.40);
+}</string>
+    </property>
+    <widget class="QPushButton" name="btnVideo">
+     <property name="geometry">
+      <rect>
+       <x>4</x>
+       <y>0</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnVideo{
+border-radius: 5px 0px 0px 5px;
+border-right: 1px solid #FFF;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_video.png</normaloff>../images/icon_video.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnReels">
+     <property name="geometry">
+      <rect>
+       <x>102</x>
+       <y>0</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnReels{
+border-radius: 5px 0px 0px 5px;
+border-right: 1px solid #FFF;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_reels.png</normaloff>../images/icon_reels.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnPhoto">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>0</y>
+       <width>100</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#btnPhoto{
+border-radius: 5px 0px 0px 5px;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset>
+       <normaloff>../images/icon_photo.png</normaloff>../images/icon_photo.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>100</width>
+       <height>30</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLineEdit" name="inputLink">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>270</y>
+      <width>291</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">@import url('https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap');
+
+#inputLink{
+border-radius: 5px;
+background: #FFF;
+color: #000000;
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left:5px;
+}</string>
+    </property>
+    <property name="placeholderText">
+     <string>Enter Instagram URL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSearch">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>270</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btnSearch{
+border-radius: 5px;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: #3797EF;
+}
+#btnSearch:hover{
+background: #288fd4;
+}</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>370</y>
+      <width>891</width>
+      <height>251</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="thumbnail_layout"/>
+   </widget>
+   <widget class="QPushButton" name="btnDownload">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>650</y>
+      <width>221</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#btnDownload{
+border-radius: 5px;
+color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background: #3797EF;
+}
+#btnDownload:hover{
+background: #288fd4;
+}</string>
+    </property>
+    <property name="text">
+     <string>Download</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>1101</width>
+      <height>271</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/body.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>1101</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../images/txt_day.png</pixmap>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>head</zorder>
+   <zorder>gridLayoutWidget</zorder>
+   <zorder>btnDownload</zorder>
+   <zorder>label</zorder>
+   <zorder>containerbtn</zorder>
+   <zorder>inputLink</zorder>
+   <zorder>btnSearch</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
