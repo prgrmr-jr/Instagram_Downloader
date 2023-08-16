@@ -92,6 +92,9 @@ focus:none;
        <height>61</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">#btnYt{
 backgrouind:transparent;
@@ -122,6 +125,9 @@ focus:none;
        <height>61</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">#btnGithub{
 backgrouind:transparent;
@@ -151,6 +157,9 @@ focus:none;
        <width>41</width>
        <height>61</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">#btnFb{
@@ -198,6 +207,9 @@ background: rgba(255, 255, 255, 0.40);
        <height>30</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">#btnVideo{
 border-radius: 5px 0px 0px 5px;
@@ -227,6 +239,9 @@ border-right: 1px solid #FFF;
        <height>30</height>
       </rect>
      </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
      <property name="styleSheet">
       <string notr="true">#btnReels{
 border-radius: 5px 0px 0px 5px;
@@ -255,6 +270,9 @@ border-right: 1px solid #FFF;
        <width>100</width>
        <height>30</height>
       </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
      </property>
      <property name="styleSheet">
       <string notr="true">#btnPhoto{
@@ -409,7 +427,7 @@ background: #288fd4;
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../images/txt_day.png</pixmap>
+     <pixmap>../images/icon_txt_day.png</pixmap>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>

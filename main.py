@@ -1,5 +1,15 @@
+####################################################################################################
+# Project: Instagram Downloader
+# Author: Jose Rey
+# Date Created: 2023-08-17
+# Description: Instagram Downloader using PyQt5 and Instaloader
+####################################################################################################
+# Github : https://github.com/joserey-alfante
+####################################################################################################
+
 import sys
 import urllib
+import webbrowser
 import zipfile
 from datetime import datetime
 import requests
@@ -8,6 +18,19 @@ from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QWidget, QApplication, QLabel, QFileDialog, QMessageBox
 from PyQt5.uic import loadUi
 from instaloader import instaloader
+
+
+# go to links
+def goto_facebook():
+    webbrowser.open("https://www.facebook.com/prgmr.joserey")
+
+
+def goto_github():
+    webbrowser.open("https://github.com/joserey-alfante/Instagram_Downloader")
+
+
+def goto_youtube():
+    webbrowser.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
 
 
 class InstagramDownloader(QWidget):
@@ -22,9 +45,24 @@ class InstagramDownloader(QWidget):
             self.btnSearch.clicked.connect(self.search_thumbnails)
             self.btnDownload.setVisible(False)
             self.btnDownload.clicked.connect(self.download_instagram_by_link)
+            self.btnFb.clicked.connect(goto_facebook)
+            self.btnYt.clicked.connect(goto_youtube)
+            self.btnGithub.clicked.connect(goto_github)
+            self.btnVideo.clicked.connect(self.show_text_video)
+            self.btnPhoto.clicked.connect(self.show_text_photo)
+            self.btnReels.clicked.connect(self.show_text_reels)
 
         except Exception as e:
             print(f"Error loading UI file: {str(e)}")
+
+    def show_text_video(self):
+        self.label_2.setPixmap(QPixmap("./assets/images/icon_txt_day.png"))
+
+    def show_text_photo(self):
+        self.label_2.setPixmap(QPixmap("./assets/images/icon_txt_photos.png"))
+
+    def show_text_reels(self):
+        self.label_2.setPixmap(QPixmap("./assets/images/icon_txt_reel.png"))
 
     def download_instagram_by_link(self):
         self.clear_thumbnails()
