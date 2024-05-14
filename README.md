@@ -64,7 +64,7 @@ install libraries needed
 ## 📱 Application
 <p>The application is available for download on the following platforms:</p>
 
-- [Portable Windows](https://drive.google.com/file/d/1UR194lGzdApPOo36MNJmPK58-JJitvFe/view?usp=drive_link)
+- [Portable Windows](https://drive.google.com/file/d/1vQJdSGhLAVJWxm6qlTYfTM0FtUX8Ldj8/view?usp=sharing)
 
-<p align="center">Developed by <a href="https://www.facebook.com/prgmr.joserey">José Rey ❤️</a></p>
+<p align="center">Developed by <a href="https://www.facebook.com/prgmr.joserey">Jr ❤️</a></p>
 
